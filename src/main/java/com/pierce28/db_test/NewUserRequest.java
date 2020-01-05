@@ -1,8 +1,10 @@
 package com.pierce28.db_test;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 public class NewUserRequest {
     private String name;
     private String email;
